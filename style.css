@@ -236,3 +236,191 @@ footer {
         height: 180px;
     }
 }
+
+.update {
+    background: red;
+}
+
+
+/* ==============================
+   DONATE SECTION
+============================== */
+
+.donate-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #faf3dc;
+}
+
+.donate-btn {
+    background-color: #f4b41a;
+    color: #3b2e1e;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+    background-color: #e0a91a;
+}
+
+
+/* POPUP */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 120px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b2e1e;
+    cursor: pointer;
+}
+
+.copy-btn {
+    background-color: #3b2e1e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background-color: #f4b41a;
+    color: #3b2e1e;
+}
+
+
+/* ==============================
+   DONATE SECTION
+============================== */
+
+.donate-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #faf3dc;
+}
+
+.donate-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #3b2e1e;
+}
+
+.donate-options {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.donate-btn {
+    background-color: #f4b41a;
+    color: #3b2e1e;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+    background-color: #e0a91a;
+}
+
+
+/* MODALS */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 120px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    color: #3b2e1e;
+    cursor: pointer;
+}
+
+.copy-btn {
+    background-color: #3b2e1e;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+
+.copy-btn:hover {
+    background-color: #f4b41a;
+    color: #3b2e1e;
+}
+
+.paypal-link {
+    display: inline-block;
+    background-color: #0070ba;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.paypal-link:hover {
+    background-color: #00457c;
+}

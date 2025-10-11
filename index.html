@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <marquee behavior="" direction="left">ANY SUGGESTION, UPDATE OR RECOMMENDATION IS HIGHLY WELCOME</marquee>
+    <marquee behavior="" direction="left" class="update"><strong>THIS WEBSITE IS STILL UNDER DEVELOPMENT. ANY SUGGESTION, UPDATE OR RECOMMENDATION IS HIGHLY WELCOME</strong></marquee>
 
 
     <section class="hero">
@@ -44,9 +44,52 @@
         <p>The Mudzini Cultural Centre is dedicated to preserving and promoting African heritage and traditional knowledge systems. We provide a platform for artists, cultural practitioners, and communities to share and celebrate their identity through art,
             storytelling, and cultural exchange.</p>
     </section>
+    <!-- ==============================
+     DONATE SECTION
+============================== -->
+    <section class="donate-section" id="donate">
+        <h2>Support Mudzini Cultural Centre</h2>
+        <p>Your donation helps us preserve culture and empower communities.</p>
+
+        <div class="donate-options">
+            <button class="donate-btn" id="mpesa-btn">Donate via M-Pesa</button>
+            <button class="donate-btn" id="paypal-btn">Donate via PayPal</button>
+        </div>
+    </section>
+
+    <!-- ==============================
+     M-PESA POPUP
+============================== -->
+    <div id="mpesa-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Donate via M-Pesa</h3>
+            <p><strong>Option 1 – Paybill:</strong><br>Paybill: <span id="mpesa-paybill">123456</span><br>Account: Mudzini</p>
+            <p><strong>Option 2 – Till Number:</strong><br><span id="mpesa-till">654321</span></p>
+            <p><strong>Instructions:</strong> Go to M-Pesa → Paybill or Buy Goods → Enter details above → Confirm payment.</p>
+            <button id="copy-paybill" class="copy-btn">Copy Paybill</button>
+            <button id="copy-till" class="copy-btn">Copy Till</button>
+        </div>
+    </div>
+
+    <!-- ==============================
+     PAYPAL POPUP
+============================== -->
+    <div id="paypal-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Donate via PayPal</h3>
+            <p><strong>PayPal Email:</strong> <span id="paypal-email">mudzini.payments@gmail.com</span></p>
+            <p><strong>Instructions:</strong> Click below to proceed securely through PayPal.</p>
+            <a href="https://www.paypal.com/donate?business=mudzini.payments@gmail.com" target="_blank" class="paypal-link">Donate on PayPal</a>
+            <button id="copy-paypal" class="copy-btn">Copy Email</button>
+        </div>
+    </div>
+
+
 
     <footer>
         <p>&copy; 2025 Mudzini Cultural Centre. All rights reserved.</p>
-        <p>📧 Email: <a href="mailto:info@mudziculturalcenter.org">mudziculturalcentre@gmail.com</a></p>
+        <p>📧 Email: <a href="mailto:info@mudziculturalcenter.org">mudziniculturalcentre@gmail.com</a></p>
     </footer>
 </body>
